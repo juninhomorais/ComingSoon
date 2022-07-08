@@ -69,7 +69,6 @@ section::after {
 
 .left--side {
     flex: 1;
-    background-color: brown;
     width: 300px;
     height: 300px;
     display: flex;
@@ -80,7 +79,6 @@ section::after {
 
 .right--side {
     flex: 1;
-    background-color: antiquewhite;
     width: 300px;
     height: 300px;
     display: flex;
