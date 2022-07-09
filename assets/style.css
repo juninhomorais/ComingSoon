@@ -73,6 +73,7 @@ section::after {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0 1.5rem;
 }
 
 .right--side {
@@ -80,6 +81,7 @@ section::after {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 1.5rem;
 }
 
 .right--side img {
