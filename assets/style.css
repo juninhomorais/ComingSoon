@@ -69,8 +69,6 @@ section::after {
 
 .left--side {
     flex: 1;
-    width: 300px;
-    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -79,8 +77,6 @@ section::after {
 
 .right--side {
     flex: 1;
-    width: 300px;
-    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,4 +85,10 @@ section::after {
 .right--side img {
     width: 100%;
     height: auto;
+}
+
+@media (max-width: 768px) {
+    .flex {
+        flex-direction: column;
+    }
 }
